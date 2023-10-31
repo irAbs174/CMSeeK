@@ -3,7 +3,7 @@ from django.views.decorators.csrf import csrf_exempt
 from django.http import JsonResponse
 from django.shortcuts import render
 from product.models import Orders
-from .models import Fadax_payment
+from .models import Fahttps://gateway.fadax.ir/supplier/v1/payment-tokendax_payment
 from .models import Cart
 import requests 
 
